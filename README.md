@@ -1,16 +1,38 @@
-## Hi there 👋
+## Hi 👋, I'm Michał (Glover012)
+**Passionate about programming, focusing on backend Python technologies.**
 
-<!--
-**Glover012/Glover012** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### 🛠️ Technologies
+- **Language**: Python
+- **Web**: FastAPI, Pydantic, uvicorn, requests
+- **Auth & Security**: JWT, Argon2, RBAC
+- **Data**: PostgreSQL, SQL, PL/pgSQL, SQLAlchemy, Alembic
+- **GUI**: PySide6, tkinter
+- **CI**: GitHub Actions
+- **Testing & Quality**: pytest, pytest-qt, pytest-mock, pytest-cov, mypy, ruff
+- **Containers**: Docker, Docker Compose
+- **Tools**: Git, pip-tools, Bash
+- **Systems**: Linux (Ubuntu), WSL2
 
-Here are some ideas to get you started:
+### 🗂️ My projects
+| Project | Description | Stack |
+|---|---|---|
+| 1️⃣ **[event-booking-api](https://github.com/Glover012/event-booking-api)** | REST API for publishing and booking events. **25 endpoints**, role-based access control (RBAC), JWT + Argon2, event lifecycle as an explicit transition map, row locking that prevents overselling, one uniform response envelope on every answer. Ships a **built-in CLI** that starts and manages the whole environment: secrets, volumes, migrations and seed data. CI with tests, lint and type checks. | `Python` `FastAPI` `Pydantic` `uvicorn` `SQLAlchemy` `PostgreSQL` `psycopg` `Alembic` `Docker` `Docker Compose` `GitHub Actions` `mypy` `ruff` |
+| 2️⃣ **[quiz-app](https://github.com/Glover012/quiz-app)** | Desktop quiz app on the OpenTDB API. Background question loading on a managed `QThread`, custom exception hierarchy, user-facing error states, per-session logging. **~93% test coverage** with mocked HTTP responses, CI across Python 3.11–3.14. | `Python` `PySide6` `requests` `pytest` `pytest-qt` `pytest-mock` `pytest-cov` `GitHub Actions` |
+| 3️⃣ **[mini-project-collection](https://github.com/Glover012/mini-project-collection)** | Learning archive: **18** small console, GUI, automation and data-visualization apps, plus SQLAlchemy ORM notes. PostgreSQL notes kept as runnable `.sql` files - queries, joins, aggregates, transactions, **PL/pgSQL functions and triggers**. | `Python` `tkinter` `PySide6` `requests` `threading` `selenium` `plotly` `psycopg2` `SQLAlchemy` `PostgreSQL` `PL/pgSQL` |
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🔭 What I'm doing
+Working on `event-booking-api`:
+- Building the complete test suite
+- Closing roadmap items: rate limiting, non-root containers, moving the token lifecycle to Redis
+
+### 🌱 What I'm learning
+- Redis
+- Django
+
+### 🎯 Next steps
+- **Kubernetes and AWS** - the next step after Docker, towards real deployment
+
+### 📫 Contact
+Open to junior backend roles, and to any position where I can keep working close to code and keep learning.
+
+Reach me at: **glover012-git@protonmail.com**
