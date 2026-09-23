@@ -3,14 +3,16 @@
 
 ### 🛠️ Technologies
 - **Language**: Python
-- **Web**: FastAPI, Pydantic, uvicorn, requests
-- **Auth & Security**: JWT, Argon2, RBAC
-- **Data**: PostgreSQL, SQL, PL/pgSQL, SQLAlchemy, Alembic
-- **GUI**: PySide6, tkinter
-- **CI**: GitHub Actions
-- **Testing & Quality**: pytest, pytest-qt, pytest-mock, pytest-cov, mypy, ruff
-- **Containers**: Docker, Docker Compose
-- **Tools**: Git, pip-tools, Bash
+- **Web / API**: FastAPI, Pydantic, REST, OpenAPI / Swagger UI, uvicorn
+- **Databases**: PostgreSQL, SQL, PL/pgSQL, SQLAlchemy ORM, Alembic
+- **Security**: JWT, OAuth2, Argon2, role-based access control (RBAC)
+- **Containerization**: Docker, Docker Compose
+- **CI/CD**: GitHub Actions
+- **Testing**: pytest, pytest-qt, pytest-mock, pytest-cov, Postman CLI
+- **Test types**: unit, manual, GUI, API (end-to-end, negative, access control)
+- **Static analysis**: mypy, ruff
+- **GUI**: PySide6
+- **Tools**: Git, GitLab, Bash, pip-tools
 - **Systems**: Linux (Ubuntu), WSL2
 
 ### 🗂️ My projects
